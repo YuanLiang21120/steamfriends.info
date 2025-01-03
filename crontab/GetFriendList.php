@@ -26,7 +26,7 @@ function check_friends($me)
 {
 	date_default_timezone_set('UTC');
 	
-	$apikey = array('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+	$apikey = array('AAC365A599BE4A47DEFBCFD14AE0A802');
 	
 	$db = new mysqli('localhost', 'user', 'password', 'database');
 	$db->set_charset('utf8mb4');
